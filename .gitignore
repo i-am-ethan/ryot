@@ -1,0 +1,19 @@
+# Build artifacts
+/bin/
+
+# Local Go build cache (Makefile uses this)
+.gocache/
+
+# ryot runtime data (object database + index)
+.dircache/
+
+# Demo / scratch directory
+tmp-demo/
+
+# Temp files created by cat-file
+temp_git_file_*
+
+# Documents
+/reading/**/*.md
+
+.DS_Store
